@@ -1,0 +1,166 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    --OrangeTone:rgb(226, 136, 1);
+  }
+  body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+    margin:0%;
+  }
+  .Home a {
+    color: var(--OrangeTone);
+   }
+  .Home{
+    font-size: 3vw;
+    padding-left: 2%;
+    color: var(--OrangeTone);
+  }
+  header{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0% 1%;
+  }
+  .logo{
+    height:22vw;
+    width:20%;
+  }
+  #burger{
+    display: none;
+  }
+ 
+.Desktopnav{
+  background-color: var(--OrangeTone);
+  height: 3vw;
+  margin-bottom:2%;
+}
+.Desktopnav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Desktopnav ul li{
+  display: inline-block;
+  padding: 0% 10%;
+}
+.Desktopnav ul li a{
+  text-decoration: none;
+  font-size: 1.5em;
+  font-style: italic;
+  color:white;
+}
+.Desktopnav ul li a:hover{
+  transition: all 1s;
+  font-size: 2em;
+  font-style: italic;
+  color: black;
+} 
+.chk{
+display: none;
+}
+.mainMobile {
+display:flex;
+height: 5vw;
+margin-bottom:2%;
+}
+.mainMobile ul {
+padding: 0%;
+margin:0%;
+width: 100%;
+}
+.mainMobile ul li{
+display:inline-flex;
+justify-content:space-between;
+align-items: center;
+list-style: none;
+padding: 2% 4%;
+}
+.mainMobile ul li a:hover{
+  color: black;
+}
+.container {
+    margin-top:10%;
+    margin-bottom: 10%;
+    padding: 0% 30%;
+    border-radius: 5px;
+}
+
+.header {
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color:var(--OrangeTone);
+    color: #ffff;
+}
+
+.lozaRadio {
+    transform: scale(1.5);
+}
+
+#guardarBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#guardarBtn:hover {
+    background-color: #D44A28;
+}
+
+#mensajeAgradecimiento {
+    text-align: center;
+    color: #FF5733;
+    font-size: 24px;
+    font-weight: bold;
+    display: none;
+}
+
+.nextbtn {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 10px;
+    background-color:var(--OrangeTone);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    width: 8vw;
+}
+
+a button:hover {
+    background-color: #D44A28;
+}

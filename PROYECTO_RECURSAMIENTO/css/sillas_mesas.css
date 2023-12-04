@@ -1,0 +1,196 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+.Home a {
+  color: var(--OrangeTone);
+ }
+.Home{
+  font-size: 3vw;
+  padding-left: 2%;
+  color: var(--OrangeTone);
+}
+.header {
+    text-align: center;
+    background-color:var(--OrangeTone);
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color:var(--OrangeTone);
+    color: #fff;
+}
+
+/* Estilos de los inputs y botón */
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#guardarBtn {
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos del mensaje de agradecimiento */
+#mensajeAgradecimiento {
+    display: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Estilos del botón de siguiente */
+.siguiente-button {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.siguiente-button:hover {
+    background-color: #b36e00;
+}
+
+@media  screen and (min-width:1024px){
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        --OrangeTone:rgb(226, 136, 1);
+      }
+      body{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+      }
+      html{
+        scroll-behavior: smooth;
+        margin:0%;
+      }
+      header{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        padding: 0% 1%;
+      } 
+      .logo{
+        height:22vw;
+        width:20%;
+      }
+    .Desktopnav{
+        background-color: var(--OrangeTone);
+        height: 3vw;
+        margin-bottom:2%;
+      }
+      .Desktopnav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .Desktopnav ul li{
+        display: inline-block;
+        padding: 0% 10%;
+      }
+      .Desktopnav ul li a{
+        text-decoration: none;
+        font-size: 1.5em;
+        font-style: italic;
+        color:white;
+      }
+      .Desktopnav ul li a:hover{
+        transition: all 1s;
+        font-size: 2em;
+        font-style: italic;
+        color: black;
+      } 
+      .chk{
+      display: none;
+      }
+      .mainMobile {
+      display:flex;
+      height: 5vw;
+      margin-bottom:2%;
+      }
+      .mainMobile ul {
+      padding: 0%;
+      margin:0%;
+      width: 100%;
+      }
+      .mainMobile ul li{
+      display:inline-flex;
+      justify-content:space-between;
+      align-items: center;
+      list-style: none;
+      padding: 2% 4%;
+      }
+      .mainMobile ul li a:hover{
+        color: black;
+      }
+      .ham{
+        display: none   ;
+      }
+
+.flexbtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#guardarBtn {
+    background-color: var(--OrangeTone);
+    margin: 5% 46%;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.siguiente-button {
+    display: block;
+    background-color: #ff7700;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.container{
+    padding: 0% 20%;
+    margin-bottom: 5%;
+}     
+}

@@ -1,0 +1,145 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    --OrangeTone:rgb(226, 136, 1);
+  }
+  body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+    margin:0%;
+  }
+  header{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0% 1%;
+  }
+  .logo{
+    height:22vw;
+    width:20%;
+  }
+  .Desktopnav{
+    background-color: var(--OrangeTone);
+    height: 3vw;
+    margin-bottom:2%;
+  }
+  .Desktopnav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Desktopnav ul li{
+    display: inline-block;
+    padding: 0% 10%;
+  }
+  .Desktopnav ul li a{
+    text-decoration: none;
+    font-size: 2vw;
+    font-style: italic;
+    color:white;
+  }
+  .Desktopnav ul li a:hover{
+    transition: all 1s;
+    font-size: 2.5vw;
+    font-style: italic;
+    color: black;
+  } 
+ .chk{
+  display: none;
+ }
+ .mainMobile {
+  display:flex;
+  height: 5vw;
+  margin-bottom:2%;
+ }
+ .mainMobile ul {
+  padding: 0%;
+  margin:0%;
+  width: 100%;
+ }
+ .mainMobile ul li{
+  display:inline-flex;
+  justify-content:space-between;
+  align-items: center;
+  list-style: none;
+  padding: 2% 4%;
+ }
+ .mainMobile ul li a:hover{
+    color: black;
+ }
+button{
+    display: none;
+}
+ .header {
+    text-align: center;
+    background-color:var(--OrangeTone);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 3%;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 300px; /* Tamaño del logo */
+}
+
+.image-grid {
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vw;
+  }
+
+.small-image {
+    width:120%;
+    height: 20vw;
+    border: 3px solid #fff; 
+    border-radius: 10px;
+    transition: transform 0.3s; 
+}
+.small-image:hover {
+    transform: scale(1.1); /* Escalar la imagen en hover */
+}
+
+.image-link {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+ .image-text {
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.collage{
+    background-color: var(--OrangeTone);
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home a {
+  color: var(--OrangeTone);
+ }
+.Home{
+  font-size: 3vw;
+  padding-left: 2%;
+  color: var(--OrangeTone);
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionar Día y Hora</title>
+    <link rel="stylesheet" href="../css/citas.css">
+</head>
+<body>
+    <div class="Home">
+        <a href="../views/index.html"> <i class="fa-solid fa-home"></i>  </a>
+    </div>
+    <body>
+        <header>
+            <div class="device">
+                <div class="container">
+                    <button id="burger" class="open-main-nav">
+                        <input class="chk" type="checkbox" name="" id="">
+                        <span class="burger"></span>
+                        <span class="burger-text">Menu</span>
+                    </button>
+                  
+                </div>
+            </div><!-- device -->
+            <img class="logo" src="https://saloncadillac.com/wp-content/uploads/2019/06/cropped-f797322d-427a-46ae-895f-55e3489dc9d0.png" alt="">
+        </header>
+        <div class="Desktopnav main-nav mainMobile close" id="main-nav">
+            <ul>
+                <li><a href="../views/citas.html">Agendar Cita</a></li>
+                <li><a href="../views/alquilacion.html">Alquilacion</a></li>
+                <li><a href="../views/comentarios.html">Comentarios</a></li>
+            </ul>
+       </div>
+    <div class="container">
+       <form action="">
+        <h1>Datos de la cita</h1>
+        <label for="">Nombre del cliente:</label><input type="text" name="" id=""> 
+        <label for="">Apellido del cliente:</label><input type="text">
+        <label for="">Estado:</label><input type="text">
+        <label for="">Ciudad:</label><input type="text">
+        <label for="">Calle:</label><input type="text">
+        <label for="">Referencias:</label> <input type="text" name="" id="">
+        <label for="">Telefono:</label><input type="text" name="" id="">
+        <div class="calendar">
+            <!-- Calendario -->
+            <input type="date" id="selected-date">
+            <!-- Reloj con opciones de 1 a 8 -->
+            <select  id="selected-hour">    
+                <option value="1">8:00 AM</option>
+                <option value="2">9:00 AM</option>
+                <option value="3">10:00 AM</option>
+                <option value="4">11:00 AM</option>
+                <option value="5">12:00 PM</option>
+                <option value="6">13:00 PM</option>
+                <option value="7">14:00 PM</option>
+                <option value="8">15:00 PM</option>
+            </select>
+
+            <a class="next" href="sillas_mesas.html">Siguiente</a>
+            <!-- Resultado de la selección y mensaje de agradecimiento -->
+            <div id="confirmation-message" style="display: none;">
+                <p>Su selección: <span id="selected-result"></span></p>
+                <p>¡Gracias por su elección!</p>
+            </div>
+        </div>
+       </form>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/e073821f55.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

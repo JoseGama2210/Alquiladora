@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+    <div class="Home">
+        <a href="..views/index.html"> <i class="fa-solid fa-home"></i>  </a>
+    </div>
+    <div class="header">
+        <h1>Control de Administrador</h1>
+    </div>
+    <div class="info">
+        <h3>Control de inventario</h3>
+    </div>
+    <div class="table">
+        <h3>Mobiliario</h3>
+        <a href="../views/agregart1.html"><p>Agregar</p></a>
+        <a href=""><p>Editar</p></a>
+        <a href=""><p>Eliminar</p></a>
+        <?php
+            include('../php/tabla1.php');
+        ?>
+        <h3>Manteles</h3>
+        <?php
+            include('../php/tabla2.php');
+        ?>
+    </div>
+    <script src="https://kit.fontawesome.com/e073821f55.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

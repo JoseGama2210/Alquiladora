@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.Home a {
+    color: var(--OrangeTone);
+   }
+  .Home{
+    font-size: 3vw;
+    padding-left: 2%;
+    color: var(--OrangeTone);
+  }
+.header {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* Estilos para las tablas */
+.table {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Estilos para las filas impares de la tabla */
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}

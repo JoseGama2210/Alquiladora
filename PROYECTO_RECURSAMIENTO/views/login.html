@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="Home">
+        <a href="../views/index.html"> <i class="fa-solid fa-home"></i>  </a>
+    </div>
+    <header>
+        <div class="device">
+            <div class="container">
+                <button id="burger" class="open-main-nav">
+                    <input class="chk" type="checkbox" name="" id="">
+                    <span class="burger"></span>
+                    <span class="burger-text">Menu</span>
+                </button>
+              
+            </div>
+        </div><!-- device -->
+        <img class="logo" src="https://saloncadillac.com/wp-content/uploads/2019/06/cropped-f797322d-427a-46ae-895f-55e3489dc9d0.png" alt="">
+    </header>
+    <div class="Desktopnav main-nav mainMobile close" id="main-nav">
+        <div class="Present">
+            ¿Que deseas hacer? 
+            </div>
+       <div class="Nav2">
+        <ul>
+            <br>
+            <li class="Control1"><a href="#Login"><p>Iniciar Sesión</p></a></li>
+            <li class="Control2"><a href="#Signin"><p>Registrarme</p></a></li>
+        </ul>
+       </div>
+    </div>
+   <article>
+    <div class="FormContainer">
+        <!-- Dependiendo el tipo de usuario el action referenciara a la pagina correspondiente -->
+        <form id="Login" class="FormStyles" action="" method="post">
+            <legend>Iniciar sesión</legend>
+            <label for="">Usuario:</label> <input type="text" name="" id=""> <br>
+            <label for="">Contraseña:</label> <input type="text" name="" id=""><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <!-- La base de datos almacenara un nuevo usuario -->
+        <form id="Signin" class="FormStyles" action="" method="post">
+            <legend>Registarme</legend>
+            <label for="">Crea un usuario:</label> <input type="text" name="" id=""> <br>
+            <label for="">Crea una contraseña:</label> <input type="text" name="" id=""><br>
+            <label for="">Confirma la contraseña</label> <input type="text" name="" id=""> <br>
+            <input type="submit" value="Unirme">
+        </form>
+    </div>
+   </article>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="../js/loginbehaivor.js"></script>
+<script src="https://kit.fontawesome.com/e073821f55.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Mobiliario Nuevo</title>
+    <link rel="stylesheet" href="../css/agregart1.css"> <!-- Enlaza el archivo de estilos externo -->
+</head>
+<body>
+    <div class="Home">
+        <a href="../views/index.html"> <i class="fa-solid fa-home"></i>  </a>
+    </div>
+    <div class="title">
+        <h2>Agregar Mobiliario</h2>
+    </div>
+    <form method="post" action="../php/agregart1.php">
+        <div class="two-columns">
+            <div class="fields">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" name="NOMBRE" maxlength="15" autocomplete="off" required>
+            </div>
+            <div class="fields">
+                <label for="descripcion">Descripción</label>
+                <input id="descripcion" type="text" name="DESCRIPCION" maxlength="50" autocomplete="off" required>
+            </div>
+        </div>
+        <div class="two-columns">
+            <div class="fields">
+                <label for="costo">Costo</label>
+                <input id="costo" type="text" name="COSTO" autocomplete="off" maxlength="3" required>
+            </div>
+            <div class="fields">
+                <label for="existencia">Existencia</label>
+                <input id="existencia" type="text" name="EXISTENCIA" autocomplete="off" required>
+            </div>
+        </div>
+        <div class="two-columns">
+            <div class="fields">
+                <label for="cantidad">Cantidad</label>
+                <input id="cantidad" type="text" name="CANTIDAD" autocomplete="off" required>
+            </div>
+            <div class="fields">
+                <label for="observaciones">Observaciones</label>
+                <input id="observaciones" type="text" name="OBSERVACIONES" autocomplete="off" required>
+            </div>
+        </div>
+        <div class="btn">
+            <a href="tablas.html" class="btn">Agregar</a>
+        </div>
+    </form>
+    <script src="https://kit.fontawesome.com/e073821f55.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

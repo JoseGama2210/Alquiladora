@@ -1,0 +1,230 @@
+  /* Estilos generales */
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+    --OrangeTone:rgb(226, 136, 1);
+  }
+  body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+    margin:0%;
+  }
+  .Home a {
+    color: var(--OrangeTone);
+   }
+  .Home{
+    font-size: 3vw;
+    padding-left: 2%;
+    color: var(--OrangeTone);
+  }
+  header{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0% 1%;
+  }
+  .logo{
+    height:22vw;
+    width:20%;
+  }
+
+.colorCheckbox {
+    transform: scale(1.5);  
+    accent-color:gray;
+}
+
+#guardarBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color:var(--OrangeTone);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#guardarBtn:hover {
+    background-color: #64676b;
+}
+
+#mensajeAgradecimiento {
+    text-align: center;
+    color: rgb(2, 185, 60);
+    font-size: 24px;
+    font-weight: bold;
+    display: none;
+}
+
+.btnnext{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 20VW;
+    padding:10px 0px;
+    background-color: #ff8800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.btnnext:hover {
+    background-color: #6e6e6e;
+}
+@media  screen and (min-width:1024px)  {
+    header{
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      margin-bottom: 1%;
+    }
+    .logo{
+      height:10vw;
+      width:10%;
+    }
+    .device{
+      display: none;
+    }
+    .Intro{
+      padding:0% 0%;
+    }
+    .Intro .firstText{
+      padding: 5%;
+      background-color: var(--OrangeTone);
+      font-weight:lighter;
+      font-size:3em;
+      letter-spacing: 10px;
+      text-align:center;
+      margin-top: 0%;
+    }
+    .Intro .secondText{
+      padding: 1% 2%;
+      font-weight:lighter;
+      font-size:2em;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    .Intro h3{
+      text-align: center;
+      font-size: 2em;
+    }
+    .section2{
+      padding: 6% 0%;
+    }
+    .section2 h3{
+      font-size:2em;
+    }
+    .secondText{
+      padding: 1% 2%;
+      font-weight:lighter;
+      font-size:2em;
+      letter-spacing: 1px;
+    }
+    .section3 h3{
+      font-size: 2em;
+    }
+    .Desktopnav{
+      background-color: var(--OrangeTone);
+      height: 3vw;
+      margin-bottom:2%;
+    }
+    .Desktopnav ul{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Desktopnav ul li{
+      display: inline-block;
+      padding: 0% 10%;
+    }
+    .Desktopnav ul li a{
+      text-decoration: none;
+      font-size: 1.5em;
+      font-style: italic;
+      color:white;
+    }
+    .Desktopnav ul li a:hover{
+      transition: all 1s;
+      font-size: 2em;
+      font-style: italic;
+      color: black;
+    } 
+   .chk{
+    display: none;
+   }
+   .mainMobile {
+    display:flex;
+    height: 5vw;
+    margin-bottom:2%;
+   }
+   .mainMobile ul {
+    padding: 0%;
+    margin:0%;
+    width: 100%;
+   }
+   .mainMobile ul li{
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    padding: 2% 4%;
+   }
+   .mainMobile ul li a:hover{
+      color: black;
+   }
+   .header {
+    text-align: center;
+    background-color:var(--OrangeTone);
+    color: #fff;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#guardarBtn:hover {
+    background-color: #7a7a7a;
+}
+.nextcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+th{
+    background-color: #8b96a3;
+    height: 3vw;
+}
+tr{
+    border: 1px solid green;
+}
+td{
+    color: #ffffff;
+    background-color:var(--OrangeTone);
+    padding: 2% 0%;
+    text-align: center;
+    height: 2vw;
+    width: 30vw;
+}
+
+}
+

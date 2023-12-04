@@ -1,0 +1,90 @@
+/* Estilos generales */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #f2f2f2;
+    display: block;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Estilos de la tabla */
+.table {
+    margin: auto;
+    margin-top:50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table th,
+.table td {
+    border: 1px solid #dee2e6;
+    padding: 5px 10px;
+}
+.table th,
+.table td:first-child {
+    background-color: #35495e;
+    color: #fff;
+    font-weight: 600;
+    width: 100px;
+}
+.table td span {
+    margin-right: 15px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.table td span:hover {
+    opacity: 0.7;
+}
+.table td span:nth-child(1) {
+    color: #35495e;
+}
+.table td span:nth-child(2) {
+    color: #2e856e;
+}
+.table td span:nth-child(3) {
+    color: #b73e52;
+    margin-right: 0px;
+}
+.table tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.table tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* Estilos del encabezado */
+.header {
+    font-size: 2em;
+    background-color: #35495e;
+    color: #fff;
+    text-align: center;
+    padding: 1%;
+}
+/* Estilos de la información */
+.info {
+    background-color: #fff;
+}
+.info h3{
+    text-align: center;
+    font-size: 3em;
+}
+/* Estilos de los enlaces */
+a {
+    color: #35495e;
+    text-decoration: none;
+    margin: 5px;
+}
+a:hover {
+    color: #2e856e;
+}
+.Home a {
+    color: var(--OrangeTone);
+   }
+  .Home{
+    font-size: 3vw;
+    padding-left: 2%;
+    color: var(--OrangeTone);
+  }

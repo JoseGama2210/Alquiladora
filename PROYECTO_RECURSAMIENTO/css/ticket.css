@@ -1,0 +1,185 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    --OrangeTone:rgb(226, 136, 1);
+  }
+  body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+    margin:0%;
+  }
+  header{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0% 1%;
+  }
+  .logo{
+    height:22vw;
+    width:20%;
+  }
+  .Desktopnav{
+    background-color: var(--OrangeTone);
+    height: 3vw;
+    margin-bottom:2%;
+  }
+  .Desktopnav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Desktopnav ul li{
+    display: inline-block;
+    padding: 0% 10%;
+  }
+  .Desktopnav ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-style: italic;
+    color:white;
+  }
+  .Desktopnav ul li a:hover{
+    transition: all 1s;
+    font-size: 2em;
+    font-style: italic;
+    color: black;
+  } 
+  .chk{
+  display: none;
+  }
+  .mainMobile {
+background-color: var(--OrangeTone);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vw;
+  margin-bottom:2%;
+  }
+  .mainMobile ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding: 0%;
+  margin:0%;
+  width: 100%;
+  }
+  .mainMobile ul li{
+  display:inline-flex;
+  justify-content:space-between;
+  align-items: center;
+  list-style: none;
+  padding: 2% 4%;
+  }
+  .mainMobile ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 0%;
+    font-size: 2vw;
+    font-style: italic;
+  }
+  .mainMobile ul li a:hover{
+    transition: all 1s;
+    font-size: 2em;
+    font-style: italic;  
+    color: #333;
+}
+.container{
+    display: none;
+}
+
+/* TABLA */
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.Home a {
+  color: var(--OrangeTone);
+ }
+.Home{
+  font-size: 3vw;
+  padding-left: 2%;
+  color: var(--OrangeTone);
+}
+.header {
+    width: 100%;
+    text-align: center;
+    background-color:var(--OrangeTone);
+    color: #fff;
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Estilos para los detalles del ticket */
+.ticket {
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #258cd1;
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+}
+
+/* Estilos específicos para los botones de la página */
+#guardarBtn {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Estilos para los enlaces de la página */
+a {
+    display: block;
+    text-align: center;
+}
